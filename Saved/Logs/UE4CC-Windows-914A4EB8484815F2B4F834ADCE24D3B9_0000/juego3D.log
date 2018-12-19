@@ -1,0 +1,757 @@
+﻿Log file open, 12/19/18 15:26:39
+LogInit:Display: Running engine for game: juego3D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1431481589) SRandInit(-1431481589).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096900
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal  -epicusername="G5Margarita" -epicuserid=6c47af31020f48078c1f81d830452129 -epiclocale=es-ES
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.19-14.26.41:735][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-14.26.41:735][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.19-14.26.41:756][  0]LogInit: Computer: U105423
+[2018.12.19-14.26.41:756][  0]LogInit: User: Alumno
+[2018.12.19-14.26.41:756][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.12.19-14.26.41:756][  0]LogInit: High frequency timer resolution =3.507207 MHz
+[2018.12.19-14.26.41:756][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.19-14.26.41:756][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.26.41:756][  0]LogMemory: Process Physical Memory: 267.23 MB used, 267.23 MB peak
+[2018.12.19-14.26.41:756][  0]LogMemory: Process Virtual Memory: 266.36 MB used, 266.36 MB peak
+[2018.12.19-14.26.41:756][  0]LogMemory: Physical Memory: 4179.71 MB used,  3938.02 MB free, 8117.73 MB total
+[2018.12.19-14.26.41:756][  0]LogMemory: Virtual Memory: 656.10 MB used,  3938.02 MB free, 8388608.00 MB total
+[2018.12.19-14.26.41:898][  0]LogTextLocalizationManager: No specific translations for ('es-ES') exist, so ('es') translations will be used.
+[2018.12.19-14.26.42:950][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.19-14.26.42:975][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4000' (Feature Level 11_0)
+[2018.12.19-14.26.42:975][  0]LogD3D11RHI:       3008/0/3802 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.19-14.26.42:975][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.19-14.26.42:983][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.19-14.26.42:983][  0]LogD3D11RHI:     GPU DeviceId: 0x11fa (for the marketing name, search the web for "GPU Device Id")
+[2018.12.19-14.26.42:983][  0]LogWindows: EnumDisplayDevices:
+[2018.12.19-14.26.42:983][  0]LogWindows:    0. 'NVIDIA Quadro K4000' (P:1 D:1)
+[2018.12.19-14.26.42:983][  0]LogWindows:    1. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows:    2. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows:    3. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.12.19-14.26.42:984][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.19-14.26.42:984][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4000
+[2018.12.19-14.26.42:984][  0]LogD3D11RHI:   Driver Version: 377.48 (internal:21.21.13.7748, unified:377.48)
+[2018.12.19-14.26.42:984][  0]LogD3D11RHI:      Driver Date: 6-8-2017
+[2018.12.19-14.26.42:984][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.12.19-14.26.42:997][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.12.19-14.26.42:999][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.19-14.26.43:014][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.19-14.26.43:016][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Intermediate/Shaders/WorkingDirectory/7580/).
+[2018.12.19-14.26.43:016][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/B01BFED94768FAD61A5D44AEBACBF894/'.
+[2018.12.19-14.26.43:016][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.12.19-14.26.44:778][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.19-14.26.44:914][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.12.19-14.26.45:049][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.19-14.26.45:185][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.12.19-14.26.45:322][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.12.19-14.26.45:461][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.19-14.26.45:598][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.19-14.26.45:733][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.19-14.26.45:858][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.12.19-14.26.45:992][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-14.26.46:125][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.19-14.26.46:260][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.19-14.26.46:394][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.19-14.26.46:531][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.19-14.26.46:666][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.19-14.26.46:936][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.19-14.26.46:936][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.19-14.26.47:052][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.12.19-14.26.47:243][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.12.19-14.26.47:294][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.12.19-14.26.47:429][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.19-14.26.47:564][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.19-14.26.47:699][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.19-14.26.47:834][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.12.19-14.26.47:834][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.12.19-14.26.48:686][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.12.19-14.26.48:791][  0]LogDerivedDataCache: Loaded boot cache 0.11s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.19-14.26.48:792][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.12.19-14.26.48:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.19-14.26.48:792][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.19-14.26.48:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.19-14.26.48:792][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.19-14.26.48:812][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.19-14.26.48:827][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.19-14.26.48:838][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.19-14.26.48:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.19-14.26.48:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.19-14.26.49:299][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-14.26.49:302][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.12.19-14.26.49:704][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.19-14.26.49:828][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.19-14.26.49:955][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.19-14.26.49:955][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.12.19-14.26.49:955][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.12.19-14.26.50:750][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: juego3d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1390200241
+[2018.12.19-14.26.50:812][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
+[2018.12.19-14.26.50:892][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047019 seconds
+[2018.12.19-14.26.50:896][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.12.19-14.26.50:896][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.12.19-14.26.50:896][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.19-14.26.50:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.12.19-14.26.54:791][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.19-14.26.54:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.19-14.26.55:990][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.12.19-14.26.56:955][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.12.19-14.26.57:147][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.12.19-14.26.57:274][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.12.19-14.26.57:402][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.12.19-14.27.00:573][  0]LogEngine: Initializing Engine...
+[2018.12.19-14.27.00:575][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.19-14.27.00:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-14.27.00:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-14.27.01:064][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.19-14.27.01:073][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.27.01:097][  0]LogInit: FAudioDevice initialized.
+[2018.12.19-14.27.01:125][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.19-14.27.01:134][  0]LogInit: Texture streaming: Enabled
+[2018.12.19-14.27.01:285][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.19-14.27.01:535][  0]LogInit: Transaction tracking system initialized
+[2018.12.19-14.27.02:523][  0]BlueprintLog: New page: Cargar el editor
+[2018.12.19-14.27.04:873][  0]LocalizationService: Información Localization service is disabled
+[2018.12.19-14.27.06:661][  0]LogConsoleResponse:Display: 
+[2018.12.19-14.27.06:817][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.19-14.27.06:817][  0]LogCook:Display: Mobile HDR setting 1
+[2018.12.19-14.27.07:671][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/' took 0.01s
+[2018.12.19-14.27.09:361][  0]SourceControl: Información El control de código fuente está desactivado
+[2018.12.19-14.27.09:362][  0]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.27.09:448][  0]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.27.09:739][  0]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.27.09:739][  0]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.27.10:096][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.19-14.27.10:122][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.27.10:123][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.27.10:268][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 145,116ms to complete.
+[2018.12.19-14.27.10:268][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.907
+[2018.12.19-14.27.10:507][  0]LogCollectionManager: Loaded 0 collections in 0.001476 seconds
+[2018.12.19-14.27.10:669][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Collections/' took 0.01s
+[2018.12.19-14.27.10:669][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Developers/Alumno/Collections/' took 0.01s
+[2018.12.19-14.27.10:669][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Collections/' took 0.01s
+[2018.12.19-14.27.10:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.12.19-14.27.10:679][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2245 classes and 453 folders.
+[2018.12.19-14.27.10:845][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.19-14.27.11:115][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.19-14.27.11:241][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.12.19-14.27.11:373][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.12.19-14.27.11:379][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2018.12.19-14.27.11:527][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.12.19-14.27.11:527][  0]LogLoad: (Engine Initialization) Total time: 33.41 seconds
+[2018.12.19-14.27.11:527][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2018.12.19-14.27.11:527][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.12.19-14.27.11:540][  0]LogOcInput: OculusInput pre-init called
+[2018.12.19-14.27.11:563][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.19-14.27.11:565][  0]LogSlate: Took 0.000813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.27.11:569][  0]LogSlate: Took 0.000730 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-14.27.11:578][  0]LogSlate: Took 0.002183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-14.27.11:722][  0]LogSlate: Took 0.002404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.27.11:800][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2018.12.19-14.27.11:858][  1]LogAssetRegistry: Asset discovery search completed in 21.0657 seconds
+[2018.12.19-14.27.11:858][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2018.12.19-14.27.11:858][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2018.12.19-14.27.31:453][865]LogSlate: Took 0.000796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.27.32:218][865]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.12.19-14.27.33:178][865]LogSlate: Took 0.000721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.27.33:181][865]LogSlate: Took 0.002061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.19-14.27.36:593][ 62]LogSlate: Took 0.017532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.12.19-14.29.01:598][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/About" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/About.uasset" SILENT=true
+[2018.12.19-14.29.01:632][531]LogSavePackage: Save=20.44ms
+[2018.12.19-14.29.01:632][531]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/About008FFE6C421D6278C8005CAF100BB44E.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/About.uasset'
+[2018.12.19-14.29.01:638][531]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/About.uasset
+[2018.12.19-14.32.11:028][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Contador" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset" SILENT=true
+[2018.12.19-14.32.11:068][865]LogSavePackage: Save=29.91ms
+[2018.12.19-14.32.11:068][865]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Contador0A90E2A94EA6552BD6DFDD89F9D087C0.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset'
+[2018.12.19-14.32.11:074][865]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset
+[2018.12.19-14.32.30:281][431]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.32.30:325][431]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.32.30:325][431]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.32.30:327][431]LoadErrors: New page: Cargando mapa: mapa1.umap
+[2018.12.19-14.32.30:328][431]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.32.30:328][431]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.32.30:713][431]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.32.30:738][431]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.32.30:904][431]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 165,55ms to complete.
+[2018.12.19-14.32.30:904][431]LogFileHelpers: Loading map 'mapa1' took 0.580
+[2018.12.19-14.33.06:570][125]LogEditorTransaction: Undo Mover nodo
+[2018.12.19-14.33.09:502][351]LogEditorTransaction: Undo Mover nodo
+[2018.12.19-14.33.10:159][398]LogEditorTransaction: Undo Añadir nodo
+[2018.12.19-14.34.17:549][187]LogSlate: Took 0.006883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.19-14.34.29:551][551]BlueprintLog: New page: Compilar mapa1
+[2018.12.19-14.34.32:161][778]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.34.33:625][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mapa1" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.19-14.34.33:882][778]LogSlate: Took 0.000802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.34.33:974][778]LogSavePackage: Save=314.34ms
+[2018.12.19-14.34.33:974][778]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/mapa1BEFEAD034FB68E37A78BE9817C293D57.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap'
+[2018.12.19-14.34.33:981][778]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap
+[2018.12.19-14.34.34:005][778]LogFileHelpers: Saving map 'mapa1' took 0.643
+[2018.12.19-14.34.34:006][778]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.34.34:006][778]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.34.34:008][778]LoadErrors: New page: Cargando mapa: 1Menu.umap
+[2018.12.19-14.34.34:010][778]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.34.34:010][778]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.34.34:097][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.34.34:121][778]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.34.34:283][778]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 161,487ms to complete.
+[2018.12.19-14.34.34:283][778]LogFileHelpers: Loading map '1Menu' took 0.278
+[2018.12.19-14.34.34:807][832]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.34.34:834][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.34.34:834][832]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.34.34:834][832]LogPlayLevel: [PlayLevel] Compiling About before play...
+[2018.12.19-14.34.34:916][832]LogPlayLevel: [PlayLevel] Compiling Contador before play...
+[2018.12.19-14.34.35:009][832]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (2 blueprints)
+[2018.12.19-14.34.35:009][832]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:34:35)
+[2018.12.19-14.34.35:009][832]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.34.35:011][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001984s)
+[2018.12.19-14.34.35:012][832]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.34.35:012][832]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2018.12.19-14.34.35:012][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002876s)
+[2018.12.19-14.34.35:029][832]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.34.35:038][832]LogInit: FAudioDevice initialized.
+[2018.12.19-14.34.35:091][832]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.34.35:093][832]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.34.35
+[2018.12.19-14.34.35:093][832]LogWorld: Bringing up level for play took: 0.000731
+[2018.12.19-14.34.35:225][832]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.12.19-14.34.35:225][832]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.35:225][832]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.35:225][832]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.35:228][832]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.35:228][832]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu 1,339
+[2018.12.19-14.34.35:229][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.34.36:081][930]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.36:081][930]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.36:081][930]LogNet: Browse: /Game/1Menu_2
+[2018.12.19-14.34.36:081][930]LogLoad: LoadMap: /Game/1Menu_2
+[2018.12.19-14.34.36:097][930]Cmd: MEM
+[2018.12.19-14.34.36:111][930]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.34.36:111][930]LogMemory: Process Physical Memory: 1398.87 MB used, 1410.73 MB peak
+[2018.12.19-14.34.36:111][930]LogMemory: Process Virtual Memory: 1759.85 MB used, 1945.05 MB peak
+[2018.12.19-14.34.36:111][930]LogMemory: Physical Memory: 5434.81 MB used,  2682.93 MB free, 8117.73 MB total
+[2018.12.19-14.34.36:111][930]LogMemory: Virtual Memory: 2435.19 MB used,  2682.93 MB free, 8388608.00 MB total
+[2018.12.19-14.34.36:111][930]LogMemory: 
+[2018.12.19-14.34.36:111][930]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.34.36:485][930]LogAIModule: Creating AISystem for world 1Menu_2
+[2018.12.19-14.34.36:485][930]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.34.36:487][930]LogWorld: Bringing World /Game/UEDPIE_0_1Menu_2.1Menu_2 up for play (max tick rate 0) at 2018.12.19-15.34.36
+[2018.12.19-14.34.36:487][930]LogWorld: Bringing up level for play took: 0.000973
+[2018.12.19-14.34.36:488][930]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.19-14.34.36:488][930]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.36:488][930]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.36:488][930]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.36:491][930]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.36:491][930]LogLoad: Took 0.409731 seconds to LoadMap(/Game/1Menu_2)
+[2018.12.19-14.34.38:177][123]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.38:177][123]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.38:177][123]LogNet: Browse: /Game/1Menu
+[2018.12.19-14.34.38:177][123]LogLoad: LoadMap: /Game/1Menu
+[2018.12.19-14.34.38:193][123]Cmd: MEM
+[2018.12.19-14.34.38:205][123]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.34.38:205][123]LogMemory: Process Physical Memory: 1488.70 MB used, 1513.38 MB peak
+[2018.12.19-14.34.38:205][123]LogMemory: Process Virtual Memory: 1843.82 MB used, 1945.05 MB peak
+[2018.12.19-14.34.38:205][123]LogMemory: Physical Memory: 5496.63 MB used,  2621.11 MB free, 8117.73 MB total
+[2018.12.19-14.34.38:205][123]LogMemory: Virtual Memory: 2518.25 MB used,  2621.11 MB free, 8388608.00 MB total
+[2018.12.19-14.34.38:205][123]LogMemory: 
+[2018.12.19-14.34.38:205][123]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.34.38:205][123]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.34.38:207][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001809s)
+[2018.12.19-14.34.38:207][123]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.34.38:208][123]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.12.19-14.34.38:208][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002721s)
+[2018.12.19-14.34.38:208][123]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.34.38:209][123]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.34.38
+[2018.12.19-14.34.38:210][123]LogWorld: Bringing up level for play took: 0.000767
+[2018.12.19-14.34.38:210][123]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.19-14.34.38:210][123]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.38:210][123]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.38:210][123]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.38:212][123]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.38:212][123]LogLoad: Took 0.035212 seconds to LoadMap(/Game/UEDPIE_0_1Menu)
+[2018.12.19-14.34.38:882][202]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.38:883][202]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.34.38:883][202]LogNet: Browse: /Game/mapa1
+[2018.12.19-14.34.38:883][202]LogLoad: LoadMap: /Game/mapa1
+[2018.12.19-14.34.38:897][202]Cmd: MEM
+[2018.12.19-14.34.38:911][202]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.34.38:911][202]LogMemory: Process Physical Memory: 1485.85 MB used, 1513.38 MB peak
+[2018.12.19-14.34.38:911][202]LogMemory: Process Virtual Memory: 1865.00 MB used, 1945.05 MB peak
+[2018.12.19-14.34.38:911][202]LogMemory: Physical Memory: 5494.46 MB used,  2623.27 MB free, 8117.73 MB total
+[2018.12.19-14.34.38:911][202]LogMemory: Virtual Memory: 2539.38 MB used,  2623.27 MB free, 8388608.00 MB total
+[2018.12.19-14.34.38:911][202]LogMemory: 
+[2018.12.19-14.34.38:911][202]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.34.39:221][202]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.34.39:221][202]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.34.39:231][202]LogWorld: Bringing World /Game/UEDPIE_0_mapa1.mapa1 up for play (max tick rate 0) at 2018.12.19-15.34.39
+[2018.12.19-14.34.39:231][202]LogWorld: Bringing up level for play took: 0.008775
+[2018.12.19-14.34.39:232][202]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.39:232][202]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.34.39:232][202]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.39:233][202]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.34.39:234][202]LogLoad: Took 0.350713 seconds to LoadMap(/Game/mapa1)
+[2018.12.19-14.34.52:856][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.34.52:903][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.04:927][778]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.36.04:939][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.04:939][778]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.36.04:939][778]LogPlayLevel: [PlayLevel] Compiling Contador before play...
+[2018.12.19-14.36.05:026][778]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2018.12.19-14.36.05:026][778]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:36:05)
+[2018.12.19-14.36.05:026][778]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.36.05:027][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001360s)
+[2018.12.19-14.36.05:028][778]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.36.05:028][778]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2018.12.19-14.36.05:028][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002197s)
+[2018.12.19-14.36.05:043][778]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.36.05:051][778]LogInit: FAudioDevice initialized.
+[2018.12.19-14.36.05:077][778]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.36.05:079][778]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.36.05
+[2018.12.19-14.36.05:079][778]LogWorld: Bringing up level for play took: 0.000734
+[2018.12.19-14.36.05:079][778]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.05:079][778]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.05:080][778]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.05:082][778]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.05:082][778]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu -0,809
+[2018.12.19-14.36.05:082][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.05:921][876]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.36.05:921][876]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.36.05:922][876]LogNet: Browse: /Game/mapa1
+[2018.12.19-14.36.05:922][876]LogLoad: LoadMap: /Game/mapa1
+[2018.12.19-14.36.05:938][876]Cmd: MEM
+[2018.12.19-14.36.05:952][876]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.36.05:952][876]LogMemory: Process Physical Memory: 1525.56 MB used, 1566.12 MB peak
+[2018.12.19-14.36.05:952][876]LogMemory: Process Virtual Memory: 1962.53 MB used, 2015.88 MB peak
+[2018.12.19-14.36.05:952][876]LogMemory: Physical Memory: 5517.79 MB used,  2599.95 MB free, 8117.73 MB total
+[2018.12.19-14.36.05:952][876]LogMemory: Virtual Memory: 2635.50 MB used,  2599.95 MB free, 8388608.00 MB total
+[2018.12.19-14.36.05:952][876]LogMemory: 
+[2018.12.19-14.36.05:952][876]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.36.06:107][876]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.36.06:107][876]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.36.06:116][876]LogWorld: Bringing World /Game/UEDPIE_0_mapa1.mapa1 up for play (max tick rate 0) at 2018.12.19-15.36.06
+[2018.12.19-14.36.06:117][876]LogWorld: Bringing up level for play took: 0.008749
+[2018.12.19-14.36.06:117][876]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.06:117][876]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.06:117][876]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.06:119][876]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.06:119][876]LogLoad: Took 0.197183 seconds to LoadMap(/Game/mapa1)
+[2018.12.19-14.36.10:397][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.10:431][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.44:023][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset" SILENT=true
+[2018.12.19-14.36.44:046][411]LogSavePackage: Save=16.26ms
+[2018.12.19-14.36.44:046][411]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprint34FE8A744EFB9638F62DBF9DDEE42CCF.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset'
+[2018.12.19-14.36.44:051][411]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset
+[2018.12.19-14.36.46:496][628]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.36.46:509][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.46:509][628]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.36.46:509][628]LogPlayLevel: [PlayLevel] Compiling MenuBlueprint before play...
+[2018.12.19-14.36.46:606][628]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2018.12.19-14.36.46:607][628]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:36:46)
+[2018.12.19-14.36.46:607][628]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.36.46:608][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001394s)
+[2018.12.19-14.36.46:609][628]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.36.46:609][628]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2018.12.19-14.36.46:609][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002200s)
+[2018.12.19-14.36.46:624][628]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.36.46:632][628]LogInit: FAudioDevice initialized.
+[2018.12.19-14.36.46:659][628]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.36.46:661][628]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.36.46
+[2018.12.19-14.36.46:661][628]LogWorld: Bringing up level for play took: 0.000745
+[2018.12.19-14.36.46:662][628]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.46:662][628]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.36.46:662][628]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.46:664][628]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.36.46:664][628]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu 0,773
+[2018.12.19-14.36.46:664][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.58:226][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.36.58:260][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.37.03:241][116]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.37.03:250][116]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-14.37.03:259][116]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-14.37.03:262][116]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.37.03:273][116]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.37.03:284][116]LogSlate: Took 0.002397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.12.19-14.37.03:286][116]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.19-14.37.15:005][743]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.37.15:023][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset" SILENT=true
+[2018.12.19-14.37.15:044][743]LogSavePackage: Save=15.98ms
+[2018.12.19-14.37.15:044][743]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprint5EAA448647BFCE164D260FAF0DF3AEB4.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset'
+[2018.12.19-14.37.15:050][743]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset
+[2018.12.19-14.37.17:318][933]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.37.17:331][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.37.17:331][933]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.37.17:331][933]LogPlayLevel: [PlayLevel] Compiling MenuBlueprint before play...
+[2018.12.19-14.37.17:424][933]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2018.12.19-14.37.17:424][933]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:37:17)
+[2018.12.19-14.37.17:424][933]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.37.17:425][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001342s)
+[2018.12.19-14.37.17:426][933]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.37.17:426][933]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2018.12.19-14.37.17:426][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002230s)
+[2018.12.19-14.37.17:441][933]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.37.17:449][933]LogInit: FAudioDevice initialized.
+[2018.12.19-14.37.17:476][933]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.37.17:477][933]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.37.17
+[2018.12.19-14.37.17:478][933]LogWorld: Bringing up level for play took: 0.000695
+[2018.12.19-14.37.17:478][933]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.37.17:478][933]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.37.17:478][933]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.37.17:480][933]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.37.17:481][933]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu -0,411
+[2018.12.19-14.37.17:481][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.37.24:662][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.37.24:691][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.37.53:969][475]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.37.55:093][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Contador" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset" SILENT=true
+[2018.12.19-14.37.55:126][475]LogSavePackage: Save=17.71ms
+[2018.12.19-14.37.55:126][475]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Contador1B44297141D7BA8B87D16F803AE920D3.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset'
+[2018.12.19-14.37.55:133][475]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Contador.uasset
+[2018.12.19-14.37.55:135][475]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.37.55:135][475]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.37.55:137][475]LoadErrors: New page: Cargando mapa: mapa1.umap
+[2018.12.19-14.37.55:137][475]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.37.55:137][475]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.37.55:391][475]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.37.55:416][475]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.37.55:531][475]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 114,87ms to complete.
+[2018.12.19-14.37.55:531][475]LogFileHelpers: Loading map 'mapa1' took 0.398
+[2018.12.19-14.37.55:532][475]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.37.59:238][792]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.19-14.39.52:345][792]BlueprintLog: New page: Compilar mapa1
+[2018.12.19-14.40.15:909][343]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.40.17:410][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mapa1" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.19-14.40.17:774][343]LogSavePackage: Save=323.08ms
+[2018.12.19-14.40.17:774][343]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/mapa1A0EC14324FF2E6BE1B041AB4F39F3125.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap'
+[2018.12.19-14.40.17:779][343]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap
+[2018.12.19-14.40.17:801][343]LogFileHelpers: Saving map 'mapa1' took 0.570
+[2018.12.19-14.40.17:802][343]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.40.17:802][343]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.40.17:804][343]LoadErrors: New page: Cargando mapa: 1Menu.umap
+[2018.12.19-14.40.17:806][343]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.40.17:806][343]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.40.17:901][343]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.40.17:924][343]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.40.18:035][343]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 111,341ms to complete.
+[2018.12.19-14.40.18:035][343]LogFileHelpers: Loading map '1Menu' took 0.235
+[2018.12.19-14.42.44:681][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset" SILENT=true
+[2018.12.19-14.42.44:723][450]LogSavePackage: Save=34.81ms
+[2018.12.19-14.42.44:723][450]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprintFD20C07B4B13760D32CAF596668B915B.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset'
+[2018.12.19-14.42.44:727][450]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset
+[2018.12.19-14.44.56:030][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset" SILENT=true
+[2018.12.19-14.44.56:068][249]LogSavePackage: Save=34.65ms
+[2018.12.19-14.44.56:068][249]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprint1E0EE32F423302FDEB104F8A365E87EB.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset'
+[2018.12.19-14.44.56:070][249]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset
+[2018.12.19-14.44.57:978][422]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.44.57:995][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.44.57:995][422]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.44.57:995][422]LogPlayLevel: [PlayLevel] Compiling MenuBlueprint before play...
+[2018.12.19-14.44.58:095][422]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2018.12.19-14.44.58:095][422]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:44:58)
+[2018.12.19-14.44.58:095][422]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.44.58:096][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001382s)
+[2018.12.19-14.44.58:097][422]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.44.58:097][422]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.12.19-14.44.58:097][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002277s)
+[2018.12.19-14.44.58:111][422]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.44.58:123][422]LogInit: FAudioDevice initialized.
+[2018.12.19-14.44.58:151][422]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.44.58:153][422]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.44.58
+[2018.12.19-14.44.58:153][422]LogWorld: Bringing up level for play took: 0.000695
+[2018.12.19-14.44.58:154][422]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.44.58:154][422]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.44.58:154][422]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.44.58:156][422]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.44.58:156][422]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu 0,261
+[2018.12.19-14.44.58:156][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.45.02:250][909]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.45.02:250][909]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.45.02:251][909]LogNet: Browse: /Game/mapa1
+[2018.12.19-14.45.02:251][909]LogLoad: LoadMap: /Game/mapa1
+[2018.12.19-14.45.02:267][909]Cmd: MEM
+[2018.12.19-14.45.02:280][909]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.45.02:280][909]LogMemory: Process Physical Memory: 1628.75 MB used, 1680.47 MB peak
+[2018.12.19-14.45.02:280][909]LogMemory: Process Virtual Memory: 2047.69 MB used, 2211.28 MB peak
+[2018.12.19-14.45.02:280][909]LogMemory: Physical Memory: 5644.69 MB used,  2473.05 MB free, 8117.73 MB total
+[2018.12.19-14.45.02:280][909]LogMemory: Virtual Memory: 2718.44 MB used,  2473.05 MB free, 8388608.00 MB total
+[2018.12.19-14.45.02:280][909]LogMemory: 
+[2018.12.19-14.45.02:280][909]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.45.02:558][909]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.45.02:558][909]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.45.02:568][909]LogWorld: Bringing World /Game/UEDPIE_0_mapa1.mapa1 up for play (max tick rate 0) at 2018.12.19-15.45.02
+[2018.12.19-14.45.02:574][909]LogWorld: Bringing up level for play took: 0.014288
+[2018.12.19-14.45.02:574][909]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.45.02:574][909]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.45.02:574][909]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.45.02:576][909]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.45.02:576][909]LogLoad: Took 0.325435 seconds to LoadMap(/Game/mapa1)
+[2018.12.19-14.45.53:286][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.45.53:321][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.39:608][922]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.47.39:626][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.39:626][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.19-14.47.39:626][922]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:47:39)
+[2018.12.19-14.47.39:626][922]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.47.39:628][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001488s)
+[2018.12.19-14.47.39:628][922]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.47.39:628][922]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2018.12.19-14.47.39:629][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002592s)
+[2018.12.19-14.47.39:645][922]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.47.39:654][922]LogInit: FAudioDevice initialized.
+[2018.12.19-14.47.39:680][922]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.47.39:682][922]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.47.39
+[2018.12.19-14.47.39:682][922]LogWorld: Bringing up level for play took: 0.000843
+[2018.12.19-14.47.39:683][922]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.39:683][922]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.39:683][922]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.39:686][922]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.39:686][922]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu -0,211
+[2018.12.19-14.47.39:686][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.41:560][144]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.41:560][144]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.41:561][144]LogNet: Browse: /Game/1Menu_2
+[2018.12.19-14.47.41:561][144]LogLoad: LoadMap: /Game/1Menu_2
+[2018.12.19-14.47.41:575][144]Cmd: MEM
+[2018.12.19-14.47.41:588][144]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.47.41:589][144]LogMemory: Process Physical Memory: 1668.06 MB used, 1700.55 MB peak
+[2018.12.19-14.47.41:589][144]LogMemory: Process Virtual Memory: 2049.40 MB used, 2211.28 MB peak
+[2018.12.19-14.47.41:589][144]LogMemory: Physical Memory: 5684.53 MB used,  2433.20 MB free, 8117.73 MB total
+[2018.12.19-14.47.41:589][144]LogMemory: Virtual Memory: 2719.56 MB used,  2433.20 MB free, 8388608.00 MB total
+[2018.12.19-14.47.41:589][144]LogMemory: 
+[2018.12.19-14.47.41:589][144]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.47.41:617][144]LogAIModule: Creating AISystem for world 1Menu_2
+[2018.12.19-14.47.41:618][144]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.47.41:619][144]LogWorld: Bringing World /Game/UEDPIE_0_1Menu_2.1Menu_2 up for play (max tick rate 0) at 2018.12.19-15.47.41
+[2018.12.19-14.47.41:620][144]LogWorld: Bringing up level for play took: 0.000996
+[2018.12.19-14.47.41:620][144]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.19-14.47.41:620][144]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.41:620][144]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.41:620][144]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.41:623][144]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.41:623][144]LogLoad: Took 0.062289 seconds to LoadMap(/Game/1Menu_2)
+[2018.12.19-14.47.42:884][292]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.42:884][292]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.42:884][292]LogNet: Browse: /Game/1Menu
+[2018.12.19-14.47.42:884][292]LogLoad: LoadMap: /Game/1Menu
+[2018.12.19-14.47.42:899][292]Cmd: MEM
+[2018.12.19-14.47.42:913][292]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.47.42:913][292]LogMemory: Process Physical Memory: 1665.19 MB used, 1700.55 MB peak
+[2018.12.19-14.47.42:913][292]LogMemory: Process Virtual Memory: 2072.45 MB used, 2211.28 MB peak
+[2018.12.19-14.47.42:913][292]LogMemory: Physical Memory: 5685.51 MB used,  2432.23 MB free, 8117.73 MB total
+[2018.12.19-14.47.42:913][292]LogMemory: Virtual Memory: 2742.56 MB used,  2432.23 MB free, 8388608.00 MB total
+[2018.12.19-14.47.42:913][292]LogMemory: 
+[2018.12.19-14.47.42:913][292]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.47.42:913][292]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.47.42:915][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001567s)
+[2018.12.19-14.47.42:915][292]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.47.42:915][292]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.12.19-14.47.42:915][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002496s)
+[2018.12.19-14.47.42:915][292]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.47.42:917][292]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.47.42
+[2018.12.19-14.47.42:917][292]LogWorld: Bringing up level for play took: 0.000700
+[2018.12.19-14.47.42:917][292]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.12.19-14.47.42:918][292]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.42:918][292]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.42:918][292]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.42:920][292]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.42:920][292]LogLoad: Took 0.036021 seconds to LoadMap(/Game/UEDPIE_0_1Menu)
+[2018.12.19-14.47.43:898][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.43:930][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.44:928][523]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.47.44:941][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.44:941][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.19-14.47.44:942][523]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:47:44)
+[2018.12.19-14.47.44:942][523]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.47.44:943][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2018.12.19-14.47.44:944][523]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.47.44:944][523]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2018.12.19-14.47.44:944][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002126s)
+[2018.12.19-14.47.44:959][523]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.47.44:966][523]LogInit: FAudioDevice initialized.
+[2018.12.19-14.47.44:996][523]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.47.44:998][523]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.47.44
+[2018.12.19-14.47.44:998][523]LogWorld: Bringing up level for play took: 0.000734
+[2018.12.19-14.47.44:999][523]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.44:999][523]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.44:999][523]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.45:001][523]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.45:001][523]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu -0,897
+[2018.12.19-14.47.45:001][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.45:756][612]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.45:756][612]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.47.45:756][612]LogNet: Browse: /Game/mapa1
+[2018.12.19-14.47.45:756][612]LogLoad: LoadMap: /Game/mapa1
+[2018.12.19-14.47.45:770][612]Cmd: MEM
+[2018.12.19-14.47.45:783][612]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.47.45:783][612]LogMemory: Process Physical Memory: 1668.09 MB used, 1700.55 MB peak
+[2018.12.19-14.47.45:783][612]LogMemory: Process Virtual Memory: 2049.40 MB used, 2211.28 MB peak
+[2018.12.19-14.47.45:783][612]LogMemory: Physical Memory: 5682.46 MB used,  2435.27 MB free, 8117.73 MB total
+[2018.12.19-14.47.45:783][612]LogMemory: Virtual Memory: 2719.56 MB used,  2435.27 MB free, 8388608.00 MB total
+[2018.12.19-14.47.45:783][612]LogMemory: 
+[2018.12.19-14.47.45:783][612]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.47.45:942][612]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.47.45:943][612]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.47.45:953][612]LogWorld: Bringing World /Game/UEDPIE_0_mapa1.mapa1 up for play (max tick rate 0) at 2018.12.19-15.47.45
+[2018.12.19-14.47.45:953][612]LogWorld: Bringing up level for play took: 0.009237
+[2018.12.19-14.47.45:954][612]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.45:954][612]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.47.45:954][612]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.45:955][612]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.47.45:955][612]LogLoad: Took 0.199328 seconds to LoadMap(/Game/mapa1)
+[2018.12.19-14.47.49:982][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.47.50:017][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.48.27:348][ 72]LogMetaData: Removing '/Game/MenuPausa.SKEL_MenuPausa_C' ref from Metadata '/Game/MenuBlueprint_2.PackageMetaData'
+[2018.12.19-14.48.27:348][ 72]LogMetaData: Removing '/Game/MenuPausa.MenuPausa_C' ref from Metadata '/Game/MenuBlueprint_2.PackageMetaData'
+[2018.12.19-14.48.27:375][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuPausa" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset" SILENT=true
+[2018.12.19-14.48.27:398][ 72]LogSavePackage: Save=18.71ms
+[2018.12.19-14.48.27:398][ 72]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuPausa740A5F8E4F0ACF76EC12B3BB5FA71663.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset'
+[2018.12.19-14.48.27:403][ 72]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset
+[2018.12.19-14.48.55:978][731]LogSlate: Took 0.000609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.48.55:986][731]LogSlate: Took 0.000478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-14.48.55:995][731]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-14.48.55:998][731]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.48.56:009][731]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.48.56:016][731]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.19-14.48.58:416][879]LogSlate: Took 0.002487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.12.19-14.49.10:858][633]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-14.49.13:058][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuPausa" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset" SILENT=true
+[2018.12.19-14.49.13:082][756]LogSavePackage: Save=17.43ms
+[2018.12.19-14.49.13:082][756]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuPausa31099A644B91E8253F2482B380F5DB2C.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset'
+[2018.12.19-14.49.13:087][756]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuPausa.uasset
+[2018.12.19-14.49.21:123][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset" SILENT=true
+[2018.12.19-14.49.21:147][287]LogSavePackage: Save=17.12ms
+[2018.12.19-14.49.21:147][287]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprint419E37994A5401639AB1398988E98B13.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset'
+[2018.12.19-14.49.21:152][287]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint.uasset
+[2018.12.19-14.49.29:491][229]LogAIModule: Creating AISystem for world 1Menu_2
+[2018.12.19-14.49.31:060][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuBlueprint_2" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint_2.uasset" SILENT=true
+[2018.12.19-14.49.31:075][229]LogSavePackage: Save=4.43ms
+[2018.12.19-14.49.31:075][229]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/MenuBlueprint_2F06CD64C425137D895B06A8977AC7671.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint_2.uasset'
+[2018.12.19-14.49.31:082][229]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/MenuBlueprint_2.uasset
+[2018.12.19-14.49.31:083][229]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.49.31:083][229]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.49.31:086][229]LoadErrors: New page: Cargando mapa: 1Menu_2.umap
+[2018.12.19-14.49.31:087][229]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.49.31:087][229]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.49.31:174][229]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.49.31:196][229]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.49.31:311][229]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 115,279ms to complete.
+[2018.12.19-14.49.31:312][229]LogFileHelpers: Loading map '1Menu_2' took 0.231
+[2018.12.19-14.49.31:314][229]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-14.49.34:492][523]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.19-14.49.42:308][203]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.49.42:334][203]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.49.42:334][203]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.49.42:336][203]LoadErrors: New page: Cargando mapa: mapa1.umap
+[2018.12.19-14.49.42:336][203]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.49.42:336][203]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.49.42:575][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.49.42:599][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.49.42:710][203]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 110,703ms to complete.
+[2018.12.19-14.49.42:710][203]LogFileHelpers: Loading map 'mapa1' took 0.377
+[2018.12.19-14.50.16:811][741]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.19-14.51.17:855][201]BlueprintLog: New page: Compilar mapa1
+[2018.12.19-14.51.23:369][685]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.51.25:096][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mapa1" FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.19-14.51.25:469][685]LogSavePackage: Save=321.82ms
+[2018.12.19-14.51.25:469][685]LogSavePackage: Moving 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/mapa11E53D51E49788A69E9AEE5ACC3437866.tmp' to 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap'
+[2018.12.19-14.51.25:474][685]LogSavePackage:Display: Finished SavePackage D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/mapa1.umap
+[2018.12.19-14.51.25:495][685]LogFileHelpers: Saving map 'mapa1' took 0.750
+[2018.12.19-14.51.25:496][685]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-14.51.25:496][685]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.51.25:498][685]LoadErrors: New page: Cargando mapa: 1Menu.umap
+[2018.12.19-14.51.25:499][685]MapCheck: New page: Revisión del mapa
+[2018.12.19-14.51.25:499][685]LightingResults: New page: Diseñar la iluminación
+[2018.12.19-14.51.25:593][685]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-14.51.25:616][685]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-14.51.25:729][685]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 113,125ms to complete.
+[2018.12.19-14.51.25:730][685]LogFileHelpers: Loading map '1Menu' took 0.235
+[2018.12.19-14.51.26:313][746]LogTemp: Repeting last play command: Selected Viewport
+[2018.12.19-14.51.26:326][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.51.26:326][746]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.19-14.51.26:326][746]LogPlayLevel: [PlayLevel] Compiling MenuBlueprint before play...
+[2018.12.19-14.51.26:410][746]LogPlayLevel: [PlayLevel] Compiling MenuPausa before play...
+[2018.12.19-14.51.26:505][746]LogPlayLevel: PlayLevel: Blueprint regeneration took 179 ms (2 blueprints)
+[2018.12.19-14.51.26:506][746]PIE: New page: Sesión PIE (reproducción en el editor): 1Menu (19/12/2018 16:51:26)
+[2018.12.19-14.51.26:506][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1Menu
+[2018.12.19-14.51.26:507][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001429s)
+[2018.12.19-14.51.26:508][746]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.19-14.51.26:508][746]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2018.12.19-14.51.26:508][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1Menu.1Menu to /Game/UEDPIE_0_1Menu.1Menu (0.002379s)
+[2018.12.19-14.51.26:524][746]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-14.51.26:532][746]LogInit: FAudioDevice initialized.
+[2018.12.19-14.51.26:564][746]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.51.26:565][746]LogWorld: Bringing World /Game/UEDPIE_0_1Menu.1Menu up for play (max tick rate 0) at 2018.12.19-15.51.26
+[2018.12.19-14.51.26:565][746]LogWorld: Bringing up level for play took: 0.000730
+[2018.12.19-14.51.26:566][746]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.51.26:566][746]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.51.26:566][746]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.51.26:569][746]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.51.26:569][746]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_1Menu 0,67
+[2018.12.19-14.51.26:569][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.51.27:353][837]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.51.27:353][837]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.12.19-14.51.27:353][837]LogNet: Browse: /Game/mapa1
+[2018.12.19-14.51.27:353][837]LogLoad: LoadMap: /Game/mapa1
+[2018.12.19-14.51.27:367][837]Cmd: MEM
+[2018.12.19-14.51.27:380][837]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-14.51.27:380][837]LogMemory: Process Physical Memory: 1794.91 MB used, 1803.48 MB peak
+[2018.12.19-14.51.27:380][837]LogMemory: Process Virtual Memory: 2159.62 MB used, 2334.23 MB peak
+[2018.12.19-14.51.27:380][837]LogMemory: Physical Memory: 5814.00 MB used,  2303.73 MB free, 8117.73 MB total
+[2018.12.19-14.51.27:380][837]LogMemory: Virtual Memory: 2826.50 MB used,  2303.73 MB free, 8388608.00 MB total
+[2018.12.19-14.51.27:380][837]LogMemory: 
+[2018.12.19-14.51.27:380][837]Allocator Stats for TBB: (not implemented)
+[2018.12.19-14.51.27:640][837]LogAIModule: Creating AISystem for world mapa1
+[2018.12.19-14.51.27:640][837]LogLoad: Game class is 'MyGameProjectMode_C'
+[2018.12.19-14.51.27:650][837]LogWorld: Bringing World /Game/UEDPIE_0_mapa1.mapa1 up for play (max tick rate 0) at 2018.12.19-15.51.27
+[2018.12.19-14.51.27:650][837]LogWorld: Bringing up level for play took: 0.008982
+[2018.12.19-14.51.27:650][837]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.51.27:650][837]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.19-14.51.27:650][837]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.51.27:652][837]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.19-14.51.27:652][837]LogLoad: Took 0.299065 seconds to LoadMap(/Game/mapa1)
+[2018.12.19-14.51.38:089][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.51.38:128][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/1Menu.1Menu:PersistentLevel' has LevelScriptBlueprint '/Game/1Menu.1Menu:PersistentLevel.1Menu' with GeneratedClass '/Game/1Menu.1Menu_C' with ClassGeneratedBy '/Game/1Menu.1Menu:PersistentLevel.1Menu'
+[2018.12.19-14.51.38:141][862]LogUObjectBase:Error: 'this' pointer is misaligned.
+[2018.12.19-14.51.38:159][862]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
