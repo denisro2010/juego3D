@@ -1,0 +1,1098 @@
+﻿Log file open, 12/19/18 17:03:02
+LogInit:Display: Running engine for game: juego3D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2088880767) SRandInit(2088880767).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.157279
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.19-16.03.05:164][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-16.03.05:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.19-16.03.05:244][  0]LogInit: Computer: U105419
+[2018.12.19-16.03.05:244][  0]LogInit: User: Alumno
+[2018.12.19-16.03.05:244][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.12.19-16.03.05:244][  0]LogInit: High frequency timer resolution =3.507226 MHz
+[2018.12.19-16.03.05:250][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.19-16.03.05:250][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.19-16.03.05:250][  0]LogMemory: Process Physical Memory: 267.22 MB used, 267.22 MB peak
+[2018.12.19-16.03.05:250][  0]LogMemory: Process Virtual Memory: 266.32 MB used, 266.32 MB peak
+[2018.12.19-16.03.05:250][  0]LogMemory: Physical Memory: 2219.28 MB used,  5898.46 MB free, 8117.73 MB total
+[2018.12.19-16.03.05:250][  0]LogMemory: Virtual Memory: 652.46 MB used,  5898.46 MB free, 8388608.00 MB total
+[2018.12.19-16.03.06:621][  0]LogInit: Overriding culture en with editor configuration.
+[2018.12.19-16.03.09:883][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.19-16.03.10:102][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4000' (Feature Level 11_0)
+[2018.12.19-16.03.10:102][  0]LogD3D11RHI:       3008/0/3802 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.19-16.03.10:102][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.19-16.03.10:114][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.19-16.03.10:114][  0]LogD3D11RHI:     GPU DeviceId: 0x11fa (for the marketing name, search the web for "GPU Device Id")
+[2018.12.19-16.03.10:114][  0]LogWindows: EnumDisplayDevices:
+[2018.12.19-16.03.10:120][  0]LogWindows:    0. 'NVIDIA Quadro K4000' (P:1 D:1)
+[2018.12.19-16.03.10:120][  0]LogWindows:    1. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-16.03.10:121][  0]LogWindows:    2. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-16.03.10:121][  0]LogWindows:    3. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.19-16.03.10:121][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.12.19-16.03.10:121][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.12.19-16.03.10:122][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.12.19-16.03.10:122][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.19-16.03.10:122][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4000
+[2018.12.19-16.03.10:122][  0]LogD3D11RHI:   Driver Version: 377.48 (internal:21.21.13.7748, unified:377.48)
+[2018.12.19-16.03.10:122][  0]LogD3D11RHI:      Driver Date: 6-8-2017
+[2018.12.19-16.03.10:122][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.12.19-16.03.10:139][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.12.19-16.03.10:307][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.19-16.03.10:352][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.19-16.03.10:455][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Intermediate/Shaders/WorkingDirectory/7288/).
+[2018.12.19-16.03.10:461][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/53632FAC416947753788C18F92C1D244/'.
+[2018.12.19-16.03.10:461][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.12.19-16.03.17:202][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.19-16.03.17:348][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.12.19-16.03.17:495][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.19-16.03.17:641][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.12.19-16.03.17:806][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.12.19-16.03.17:952][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.19-16.03.18:099][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.19-16.03.18:245][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.19-16.03.18:379][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.12.19-16.03.18:534][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.03.18:680][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.19-16.03.18:825][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.19-16.03.18:971][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.19-16.03.19:121][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.19-16.03.19:271][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.19-16.03.19:584][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.19-16.03.19:584][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.19-16.03.19:727][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.12.19-16.03.20:037][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.12.19-16.03.20:098][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.12.19-16.03.20:248][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.19-16.03.20:395][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.19-16.03.20:540][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.19-16.03.20:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.12.19-16.03.20:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.12.19-16.03.22:758][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache: Loaded boot cache 0.90s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.19-16.03.23:661][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.19-16.03.23:702][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.19-16.03.23:718][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.19-16.03.23:741][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.19-16.03.23:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.19-16.03.23:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.19-16.03.33:698][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.19-16.03.33:705][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.12.19-16.03.34:189][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.19-16.03.34:331][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.19-16.03.34:468][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.19-16.03.34:468][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.12.19-16.03.34:468][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.12.19-16.03.35:914][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: juego3d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1390200241
+[2018.12.19-16.03.35:976][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
+[2018.12.19-16.03.36:037][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.024592 seconds
+[2018.12.19-16.03.36:061][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.12.19-16.03.36:061][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2018.12.19-16.03.36:061][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.19-16.03.36:166][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.12.19-16.03.47:348][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.19-16.03.47:408][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.19-16.03.49:087][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.12.19-16.03.50:165][  0]SourceControl: Info Source control is disabled
+[2018.12.19-16.03.50:371][  0]SourceControl: Info Source control is disabled
+[2018.12.19-16.03.50:516][  0]SourceControl: Info Source control is disabled
+[2018.12.19-16.03.50:650][  0]SourceControl: Info Source control is disabled
+[2018.12.19-16.03.54:507][  0]LogEngine: Initializing Engine...
+[2018.12.19-16.03.54:511][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.19-16.03.54:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-16.03.54:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-16.03.55:136][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.19-16.03.55:273][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.19-16.03.55:499][  0]LogInit: FAudioDevice initialized.
+[2018.12.19-16.03.55:574][  0]LogDerivedDataCache: Saved boot cache 0.07s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.19-16.03.55:587][  0]LogInit: Texture streaming: Enabled
+[2018.12.19-16.03.55:836][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.19-16.03.56:136][  0]LogInit: Transaction tracking system initialized
+[2018.12.19-16.03.57:367][  0]BlueprintLog: New page: Editor Load
+[2018.12.19-16.04.00:035][  0]LocalizationService: Info Localization service is disabled
+[2018.12.19-16.04.02:259][  0]LogConsoleResponse:Display: 
+[2018.12.19-16.04.03:114][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/' took 0.02s
+[2018.12.19-16.04.03:114][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.19-16.04.03:115][  0]LogCook:Display: Mobile HDR setting 1
+[2018.12.19-16.04.06:550][  0]SourceControl: Info Source control is disabled
+[2018.12.19-16.04.06:550][  0]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-16.04.06:552][  0]LightingResults: New page: Lighting Build
+[2018.12.19-16.04.06:738][  0]MapCheck: New page: Map Check
+[2018.12.19-16.04.06:738][  0]LightingResults: New page: Lighting Build
+[2018.12.19-16.04.07:457][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.12.19-16.04.07:520][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-16.04.07:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-16.04.07:682][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.649ms to complete.
+[2018.12.19-16.04.07:682][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.132
+[2018.12.19-16.04.08:032][  0]LogCollectionManager: Loaded 0 collections in 0.001420 seconds
+[2018.12.19-16.04.08:244][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Collections/' took 0.01s
+[2018.12.19-16.04.08:244][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Developers/Alumno/Collections/' took 0.01s
+[2018.12.19-16.04.08:245][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Collections/' took 0.01s
+[2018.12.19-16.04.08:245][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.12.19-16.04.08:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2245 classes and 453 folders.
+[2018.12.19-16.04.08:425][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.19-16.04.09:788][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2018.12.19-16.04.10:027][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.19-16.04.10:149][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.12.19-16.04.10:167][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.12.19-16.04.10:323][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.12.19-16.04.10:323][  0]LogLoad: (Engine Initialization) Total time: 79.00 seconds
+[2018.12.19-16.04.10:323][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
+[2018.12.19-16.04.10:323][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.12.19-16.04.10:669][  0]LogOcInput: OculusInput pre-init called
+[2018.12.19-16.04.10:703][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.19-16.04.10:723][  0]LogSlate: Took 0.011136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-16.04.10:745][  0]LogSlate: Took 0.011149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-16.04.10:769][  0]LogSlate: Took 0.011098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-16.04.11:043][  0]LogSlate: Took 0.003688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.19-16.04.11:085][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2018.12.19-16.04.11:503][  2]LogAssetRegistry: Asset discovery search completed in 35.5471 seconds
+[2018.12.19-16.04.11:503][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2018.12.19-16.04.11:503][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2018.12.19-16.04.29:886][664]SourceControl: Info On branch master
+[2018.12.19-16.04.29:886][664]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2018.12.19-16.04.29:886][664]SourceControl: Info and have 2 and 3 different commits each, respectively.
+[2018.12.19-16.04.29:886][664]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2018.12.19-16.04.29:886][664]SourceControl: Info You have unmerged paths.
+[2018.12.19-16.04.29:886][664]SourceControl: Info   (fix conflicts and run "git commit")
+[2018.12.19-16.04.29:886][664]SourceControl: Info   (use "git merge --abort" to abort the merge)
+[2018.12.19-16.04.29:886][664]SourceControl: Info Changes to be committed:
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/1Menu.umap
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/1Menu_2.umap
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/About.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/Contador.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MenuBlueprint.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MenuBlueprint_2.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MenuPausa.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/SK_Car_Skeleton2.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/Aston_Martin_One-77.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_001_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_002_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_002_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_004_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_Group_004_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:886][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_lr_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_door_rr_ok_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_003_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_svetilo_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_PhysicsAsset.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/BMW_X5_4_windscre01_001_Skeleton.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/MyVehicle/StaticMesh/STI.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Content/descarga.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/AutoScreenshot.png
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/1Menu_2018-12-19-14-46-02.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/1Menu_2018-12-19-14-54-14.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/1Menu_2018-12-19-16-20-27.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/1Menu_2_2018-12-19-15-12-40.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/About_2018-12-19-15-08-16.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/About_2018-12-19-15-23-16.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/About_2018-12-19-15-29-01.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/Contador_2018-12-19-15-32-11.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/Contador_2018-12-19-15-37-55.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/Contador_2018-12-19-16-17-51.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-14-47-34.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-11-38.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-17-48.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-23-33.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-36-44.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-42-44.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-15-49-21.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-16-17-51.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuBlueprint_2018-12-19-16-23-48.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuPausa_2018-12-19-15-49-13.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuPausa_2018-12-19-15-54-15.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/MenuPausa_2018-12-19-16-01-40.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/Minimal_Default_2018-12-12-16-56-50.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-14-56-50.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-15-34-33.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-15-40-17.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-15-51-25.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-16-02-01.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_2018-12-19-16-12-16.umap
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Backup/mapa1_BuiltData_2018-12-19-16-05-01.uasset
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Config/WorldState/2532869140.json
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Config/WorldState/2736044745.json
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Config/WorldState/73702580.json
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-914A4EB8484815F2B4F834ADCE24D3B9/CrashReportClient.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-914A4EB8484815F2B4F834ADCE24D3B9_0000/CrashContext.runtime-xml
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-914A4EB8484815F2B4F834ADCE24D3B9_0000/CrashReportClient.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-914A4EB8484815F2B4F834ADCE24D3B9_0000/UE4Minidump.dmp
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-914A4EB8484815F2B4F834ADCE24D3B9_0000/juego3D.log
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-B4ED367C4F8F7B789EE0C88DD5F59C9B/CrashReportClient.ini
+[2018.12.19-16.04.29:887][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-CC22BC33465154C91C497DA7E621B7FE/CrashReportClient.ini
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-CC22BC33465154C91C497DA7E621B7FE_0000/CrashContext.runtime-xml
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-CC22BC33465154C91C497DA7E621B7FE_0000/CrashReportClient.ini
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-CC22BC33465154C91C497DA7E621B7FE_0000/UE4Minidump.dmp
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-CC22BC33465154C91C497DA7E621B7FE_0000/juego3D.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-D4D74C2D453F65ABE716519EBC3B82D9/CrashReportClient.ini
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-D4D74C2D453F65ABE716519EBC3B82D9_0000/CrashContext.runtime-xml
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-D4D74C2D453F65ABE716519EBC3B82D9_0000/CrashReportClient.ini
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-D4D74C2D453F65ABE716519EBC3B82D9_0000/UE4Minidump.dmp
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-D4D74C2D453F65ABE716519EBC3B82D9_0000/juego3D.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/UE4CC-Windows-EBB6A1CB4EA5121A0923DEA272BE5CFA/CrashReportClient.ini
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/juego3D-backup-2018.12.19-14.19.50.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/juego3D-backup-2018.12.19-14.27.28.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/juego3D-backup-2018.12.19-14.31.48.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/juego3D-backup-2018.12.19-15.26.39.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	new file:   Saved/Logs/juego3D-backup-2018.12.19-15.51.49.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info Unmerged paths:
+[2018.12.19-16.04.29:888][664]SourceControl: Info   (use "git add <file>..." to mark resolution)
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	both modified:   Content/mapa1.umap
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	both modified:   Content/mapa1_BuiltData.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	both modified:   Saved/Logs/juego3D.log
+[2018.12.19-16.04.29:888][664]SourceControl: Info Changes not staged for commit:
+[2018.12.19-16.04.29:888][664]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.12.19-16.04.29:888][664]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Content/VehicleAdv/Vehicle/VehicleAnimationBlueprint.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/black_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/body_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/chrome_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/glass_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/gum1_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/gum_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/int_3_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/int_4_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/int_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/logo_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/Blueprints/prueba/red_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/SK_Car_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/SK_Car_Auto4.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/SK_Car_Skeleton2_Auto4.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/SK_Car_Skeleton_Auto3.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Auto6.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Logos_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Logos_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Object04_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_Object04_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black01_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black01_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_black_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_body_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome10_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome10_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome26_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome26_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome27_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:888][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome27_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome2_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome2_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome3_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome3_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome4_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome4_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome5_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome5_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome6_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome6_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome7_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome7_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome8_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome8_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome9_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome9_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_chrome_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_dash0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_dash0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_dash_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_dash_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_glass_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum020_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum020_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum106_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum106_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum107_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum107_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum108_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum108_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum109_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum109_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum10_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum10_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum110_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum110_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum111_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum111_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum112_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum112_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum113_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum113_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum114_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum114_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum115_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum115_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum116_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum116_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum117_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum117_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum118_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum118_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum11_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum11_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum12_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum12_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum13_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum13_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:889][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum14_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum14_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum15_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum15_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum16_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum16_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum17_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum17_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum18_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum18_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum19_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum19_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum2_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum2_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum3_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum3_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum40_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum40_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum4_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum4_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum50_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum50_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum5_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum5_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum6_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum6_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum7_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum7_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum84_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum84_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum8_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum8_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum9_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum9_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_gum_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int2_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int2_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int3_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int3_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_int_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_logo01_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red1_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red1_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red2_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red2_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_red_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_seat01_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_seat01_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_seat02_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_seat02_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver01_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver01_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver02_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver02_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver03_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver03_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver04_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:890][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver04_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver05_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver05_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver06_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver06_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver07_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver07_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver08_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver08_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver09_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver09_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver0_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver0_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver10_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver10_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_silver_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_st_wheel_PhysicsAsset_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/Aston_Martin_One-77_st_wheel_Skeleton_Auto5.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_003_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_003_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_005_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_005_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_007_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_3D_Object__32_007_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_915_1_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_915_1_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_915_1_002_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_915_1_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Auto3.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_DONT_EDIT_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_D_1_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_D_1_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_002_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_002_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_002_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_004_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_004_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_004_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Group_004_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_MTK_1_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_MTK_1_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_MTK_1_002_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_MTK_1_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_M_3_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_M_3_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_M_3_002_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_M_3_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Plate_08_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Plate_08_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Plate_08_003_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_Plate_08_003_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:891][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_WITHOUT_PE_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_bonnet_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_boot_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lf_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lr_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lr_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_lr_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rf_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rr_ok_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rr_ok_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_door_rr_ok_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_003_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_003_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_fara_lf_003_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_steklo_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_svetilo_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_svetilo_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_svetilo_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_002_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_003_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_PhysicsAsset_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_wheel_004_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_windscre01_001_PhysicsAsset_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_windscre01_001_Skeleton_Auto2.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/BMW_X5_4_windscre01_001_Skeleton_Auto6.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Auto5.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled01_Anim_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled01_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled01_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled02_Anim_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled02_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled02_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled03_Anim_Auto4.uasset
+[2018.12.19-16.04.29:892][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled03_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled03_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled04_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled04_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled04_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled05_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled05_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled05_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled06_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled06_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled06_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled07_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled07_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled07_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled10_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled10_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled10_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled11_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled11_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled11_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled12_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled12_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled12_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled13_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled13_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled13_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled14_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled14_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled14_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled15_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled15_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled15_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled16_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled16_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled16_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled19_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled19_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled19_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled20_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled20_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled20_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled21_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled21_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled21_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled22_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled22_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled22_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled24_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled24_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled24_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled25_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled25_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled25_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled28_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled28_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled28_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled29_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled29_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled29_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_0_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_0_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_0_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_3_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_3_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_3_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_4_Anim_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_4_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_4_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:893][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_5_Anim_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_5_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_5_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_6_Anim_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_6_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_6_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_7_Anim_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_7_PhysicsAsset_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/MyVehicle/StaticMesh/STI_Untitled_7_Skeleton_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/VehicleAdv/Materials/MasterGrid_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/VehicleAdv/Materials/MaterialInstances/BlackGrid_Auto4.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Game/VehicleAdv/Vehicle/VehicleSkeleton_Auto3.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Autosaves/Temp/Untitled_1_Auto6.umap
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/BlackGrid_2018-12-19-15-55-16.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/BlackGrid_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MasterGrid_2018-12-19-15-55-15.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MasterGrid_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-14-26-42.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-14-32-27.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-14-37-58.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-14-47-07.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-14-52-08.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-15-01-24.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-15-07-34.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-15-37-07.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-15-43-48.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-15-49-46.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-16-34-08.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-16-45-19.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-16-50-22.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyCar_2018-12-19-16-55-33.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/MyGameProjectMode_2018-12-19-14-29-47.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/SK_Car_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/SK_Car_2018-12-19-15-55-15.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/SK_Car_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/SK_Car_Skeleton_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/SK_Car_Skeleton_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/VehicleSkeleton_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/VehicleSkeleton_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/Vehicle_2018-12-19-15-01-26.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/black_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/black_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/body_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/body_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/chrome_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/chrome_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/glass_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/glass_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/gum1_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/gum1_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/gum_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/gum_2018-12-19-16-55-56.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_3_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_3_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_4_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/int_4_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/logo_2018-12-19-15-29-18.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/logo_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/red_2018-12-19-15-29-19.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Backup/red_2018-12-19-16-55-57.uasset
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Config/WorldState/112858600.json
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0000/CrashContext.runtime-xml
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0000/CrashReportClient.ini
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0000/UE4Minidump.dmp
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0000/juego3D.log
+[2018.12.19-16.04.29:894][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0001/CrashContext.runtime-xml
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0001/CrashReportClient.ini
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0001/UE4Minidump.dmp
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-5674B8254C1336E64D4939B860A96D74_0001/juego3D.log
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00001.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00002.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00003.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00004.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00005.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00006.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00007.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00008.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00009.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	deleted:    Saved/Screenshots/Windows/ScreenShot00010.png
+[2018.12.19-16.04.29:895][664]SourceControl: Info Untracked files:
+[2018.12.19-16.04.29:895][664]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	Intermediate/AssetRegistryCache/2657c409.bin
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	Intermediate/AssetRegistryCache/866581fd.bin
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	Intermediate/AssetRegistryCache/8c0e1344.bin
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	Saved/Logs/UE4CC-Windows-E5A8D8EE4EA70AAD1DF38695A8AE2E94/
+[2018.12.19-16.04.29:895][664]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.19-17.03.02.log
+[2018.12.19-16.04.33:805][ 62]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2018.12.19-16.04.33:920][ 62]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/juego3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.12.19-16.04.34:613][ 62]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.685 s
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: === Handled ensure: ===
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: 
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/juego3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: Stack: 
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DBD495E6
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DBAF9B82
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DBB0B666
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DB4DA6E8
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000D1133D22
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000D1133EB9
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CDDD1D2E
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CDD8B4B5
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CDD8AA8D
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000CDD9F274
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000CB47B851
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000CB48D1ED
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000D1139C5C
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D4957517
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D5162196
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor.exe!0x000000003F8FDEE3
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor.exe!0x000000003F8EEB40
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor.exe!0x000000003F8EEBBA
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor.exe!0x000000003F900A29
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: UE4Editor.exe!0x000000003F9022B6
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: kernel32.dll!0x0000000076CE59CD
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: ntdll.dll!0x0000000076F4385D
+[2018.12.19-16.04.34:613][ 62]LogOutputDevice:Error: 
+[2018.12.19-16.04.34:618][ 62]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.19-16.04.36:758][ 62]LogStats:                    SendNewReport -  2.140 s
+[2018.12.19-16.04.36:758][ 62]LogStats:             FDebug::EnsureFailed -  2.838 s
+[2018.12.19-16.04.50:736][ 62]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.12.19-16.04.50:996][ 62]SourceControl:Error: Error fatal: cannot do a partial commit during a merge.
+[2018.12.19-16.04.51:000][ 62]SourceControl: Info Submitted revision.
+[2018.12.19-16.08.00:374][800]Cmd: QUIT_EDITOR
+[2018.12.19-16.08.00:486][800]LogExit: Preparing to exit.
+[2018.12.19-16.08.00:814][800]LogExit: Editor shut down
+[2018.12.19-16.08.00:814][800]LogExit: Transaction tracking system shut down
+[2018.12.19-16.08.00:862][800]LogObj: Freed 0b from 0 cluster array pools.
+[2018.12.19-16.08.00:862][800]LogExit: Object subsystem successfully closed.
+[2018.12.19-16.08.00:873][800]LogD3D11RHI: Shutdown
+[2018.12.19-16.08.00:873][800]LogD3D11RHI: CleanupD3DDevice
+[2018.12.19-16.08.00:930][800]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.19-16.08.00:956][800]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2018.12.19-16.08.00:956][800]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2018.12.19-16.08.00:956][800]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2018.12.19-16.08.00:956][800]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2018.12.19-16.08.00:956][800]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2018.12.19-16.08.00:957][800]LogDirectoryWatcher: A directory notification for 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Collections/' was aborted.
+[2018.12.19-16.08.00:957][800]LogDirectoryWatcher: A directory notification for 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Developers/Alumno/Collections/' was aborted.
+[2018.12.19-16.08.00:957][800]LogDirectoryWatcher: A directory notification for 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Collections/' was aborted.
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2018.12.19-16.08.00:957][800]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module Media (443)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2018.12.19-16.08.00:958][800]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2018.12.19-16.08.01:643][800]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2018.12.19-16.08.01:644][800]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2018.12.19-16.08.01:645][800]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2018.12.19-16.08.01:645][800]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2018.12.19-16.08.01:645][800]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2018.12.19-16.08.01:645][800]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2018.12.19-16.08.01:695][800]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2018.12.19-16.08.01:696][800]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2018.12.19-16.08.01:696][800]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2018.12.19-16.08.01:696][800]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2018.12.19-16.08.01:696][800]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2018.12.19-16.08.01:696][800]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2018.12.19-16.08.01:697][800]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2018.12.19-16.08.01:915][800]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.12.19-16.08.01:916][800]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.12.19-16.08.01:917][800]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2018.12.19-16.08.01:918][800]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2018.12.19-16.08.01:918][800]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2018.12.19-16.08.01:919][800]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2018.12.19-16.08.01:923][800]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.12.19-16.08.01:925][800]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2018.12.19-16.08.01:925][800]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2018.12.19-16.08.01:925][800]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2018.12.19-16.08.01:925][800]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.12.19-16.08.02:025][800]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.12.19-16.08.02:125][800]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.12.19-16.08.02:126][800]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.12.19-16.08.02:127][800]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.12.19-16.08.02:128][800]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.12.19-16.08.02:128][800]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.12.19-16.08.02:128][800]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.12.19-16.08.02:131][800]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.12.19-16.08.02:221][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.12.19-16.08.02:221][800]LogDirectoryWatcher: A directory notification for 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/' was aborted.
+[2018.12.19-16.08.02:222][800]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.12.19-16.08.02:222][800]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.12.19-16.08.02:222][800]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.12.19-16.08.02:222][800]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.12.19-16.08.02:222][800]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.12.19-16.08.02:223][800]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.12.19-16.08.02:223][800]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.12.19-16.08.02:223][800]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.12.19-16.08.02:223][800]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.12.19-16.08.02:223][800]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.12.19-16.08.02:252][800]LogDerivedDataCache: Shutdown
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.12.19-16.08.02:252][800]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.12.19-16.08.02:253][800]LogOnline:Display: Unloading online subsystem: NULL
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.12.19-16.08.02:253][800]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.12.19-16.08.02:253][800]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.19-16.08.02:253][800]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5D60F86-4530-0031-1B20-E997C7F74258%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=aad17b8b475c9a2505f9a8a8be923e61%7C355ab556deea40e5b0fccf190ca75605%7Ce70b34dc-bb45-43b7-a933-94a96200fbf0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.19-16.08.02:275][800]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.12.19-16.08.02:280][800]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.12.19-16.08.02:280][800]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.12.19-16.08.02:281][800]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.12.19-16.08.02:281][800]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.12.19-16.08.02:281][800]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.19-16.08.02:283][800]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.19-16.08.02:287][800]LogExit: Exiting.
+[2018.12.19-16.08.02:291][800]Log file closed, 12/19/18 17:08:02

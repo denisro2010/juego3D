@@ -1,0 +1,499 @@
+﻿Log file open, 12/26/18 15:51:11
+LogInit:Display: Running engine for game: juego3D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1220927170) SRandInit(-1220927169).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.182131
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.26-14.51.14:031][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-14.51.14:031][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.26-14.51.14:068][  0]LogInit: Computer: U105419
+[2018.12.26-14.51.14:068][  0]LogInit: User: Alumno
+[2018.12.26-14.51.14:068][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.12.26-14.51.14:068][  0]LogInit: High frequency timer resolution =3.507236 MHz
+[2018.12.26-14.51.14:068][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.26-14.51.14:068][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.26-14.51.14:068][  0]LogMemory: Process Physical Memory: 266.52 MB used, 266.52 MB peak
+[2018.12.26-14.51.14:068][  0]LogMemory: Process Virtual Memory: 266.44 MB used, 266.44 MB peak
+[2018.12.26-14.51.14:068][  0]LogMemory: Physical Memory: 4717.68 MB used,  3400.05 MB free, 8117.73 MB total
+[2018.12.26-14.51.14:069][  0]LogMemory: Virtual Memory: 652.46 MB used,  3400.05 MB free, 8388608.00 MB total
+[2018.12.26-14.51.14:325][  0]LogInit: Overriding culture en with editor configuration.
+[2018.12.26-14.51.19:533][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.26-14.51.19:591][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4000' (Feature Level 11_0)
+[2018.12.26-14.51.19:591][  0]LogD3D11RHI:       3008/0/3802 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.26-14.51.19:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.26-14.51.19:601][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.26-14.51.19:601][  0]LogD3D11RHI:     GPU DeviceId: 0x11fa (for the marketing name, search the web for "GPU Device Id")
+[2018.12.26-14.51.19:601][  0]LogWindows: EnumDisplayDevices:
+[2018.12.26-14.51.19:601][  0]LogWindows:    0. 'NVIDIA Quadro K4000' (P:1 D:1)
+[2018.12.26-14.51.19:601][  0]LogWindows:    1. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.26-14.51.19:602][  0]LogWindows:    2. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.26-14.51.19:602][  0]LogWindows:    3. 'NVIDIA Quadro K4000' (P:0 D:0)
+[2018.12.26-14.51.19:602][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.12.26-14.51.19:602][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.12.26-14.51.19:602][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.12.26-14.51.19:603][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.12.26-14.51.19:603][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4000
+[2018.12.26-14.51.19:603][  0]LogD3D11RHI:   Driver Version: 377.48 (internal:21.21.13.7748, unified:377.48)
+[2018.12.26-14.51.19:603][  0]LogD3D11RHI:      Driver Date: 6-8-2017
+[2018.12.26-14.51.19:603][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.12.26-14.51.19:634][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.12.26-14.51.19:637][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.26-14.51.19:656][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.26-14.51.19:659][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Intermediate/Shaders/WorkingDirectory/6460/).
+[2018.12.26-14.51.19:659][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/08E3474E495174052B0F8EBD27BC6C05/'.
+[2018.12.26-14.51.19:659][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.12.26-14.51.33:105][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.26-14.51.33:747][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.12.26-14.51.34:155][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.26-14.51.34:442][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.12.26-14.51.34:765][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.12.26-14.51.35:057][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.26-14.51.35:386][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.26-14.51.36:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.26-14.51.36:536][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.12.26-14.51.37:020][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.12.26-14.51.37:317][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.12.26-14.51.37:585][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.12.26-14.51.38:085][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.12.26-14.51.38:727][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.12.26-14.51.39:087][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.12.26-14.51.39:667][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.12.26-14.51.39:667][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.12.26-14.51.39:962][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.12.26-14.51.40:650][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.12.26-14.51.40:745][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.12.26-14.51.41:176][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.26-14.51.41:691][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.26-14.51.42:157][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.26-14.51.43:056][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.12.26-14.51.43:056][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.12.26-14.51.44:995][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.26-14.51.45:070][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.26-14.51.45:103][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.26-14.51.45:122][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.26-14.51.45:139][  0]LogSlate: Using Freetype 2.6.0
+[2018.12.26-14.51.45:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.26-14.51.45:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.26-14.51.46:963][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.26-14.51.46:971][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.12.26-14.51.47:745][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.26-14.51.47:991][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.26-14.51.48:244][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.26-14.51.48:244][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.12.26-14.51.48:244][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.12.26-14.51.49:755][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: juego3d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1390200241
+[2018.12.26-14.51.49:883][  0]LogAssetRegistry: FAssetRegistry took 0.0520 seconds to start up
+[2018.12.26-14.51.50:040][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.070654 seconds
+[2018.12.26-14.51.50:049][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.12.26-14.51.50:049][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2018.12.26-14.51.50:049][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.26-14.51.50:215][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.12.26-14.52.02:138][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.26-14.52.02:227][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.26-14.52.04:604][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.12.26-14.52.06:596][  0]SourceControl: Info Source control is disabled
+[2018.12.26-14.52.24:672][  0]LogEngine: Initializing Engine...
+[2018.12.26-14.52.24:676][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.26-14.52.24:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.26-14.52.24:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.26-14.52.25:653][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.26-14.52.25:675][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.26-14.52.25:716][  0]LogInit: FAudioDevice initialized.
+[2018.12.26-14.52.25:756][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.12.26-14.52.25:774][  0]LogInit: Texture streaming: Enabled
+[2018.12.26-14.52.26:041][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.26-14.52.26:541][  0]LogInit: Transaction tracking system initialized
+[2018.12.26-14.52.28:501][  0]BlueprintLog: New page: Editor Load
+[2018.12.26-14.52.33:213][  0]LocalizationService: Info Localization service is disabled
+[2018.12.26-14.52.36:978][  0]LogConsoleResponse:Display: 
+[2018.12.26-14.52.37:649][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.26-14.52.37:649][  0]LogCook:Display: Mobile HDR setting 1
+[2018.12.26-14.52.37:656][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/' took 0.02s
+[2018.12.26-14.52.47:036][  0]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.26-14.52.47:037][  0]LightingResults: New page: Lighting Build
+[2018.12.26-14.52.47:274][  0]MapCheck: New page: Map Check
+[2018.12.26-14.52.47:274][  0]LightingResults: New page: Lighting Build
+[2018.12.26-14.52.47:517][  0]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2018.12.26-14.52.47:533][  0]LogTemp:Display: Added material ShaderMap 0x00000000255A9D00 with Material 0x000000003B5A6380 to ShaderMapsBeingCompiled
+[2018.12.26-14.52.47:642][  0]LogTemp:Display: Kicking off shader compilation for M_Tech_Hex_Tile_Pulse, GameThreadShaderMap 0x00000000255A9D00
+[2018.12.26-14.52.47:651][  0]LogMaterial: Missing cached shader map for material black, compiling. 
+[2018.12.26-14.52.47:652][  0]LogTemp:Display: Added material ShaderMap 0x000000004105AE80 with Material 0x000000003B5B9300 to ShaderMapsBeingCompiled
+[2018.12.26-14.52.47:705][  0]LogTemp:Display: Kicking off shader compilation for black, GameThreadShaderMap 0x000000004105AE80
+[2018.12.26-14.52.47:763][  0]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.26-14.52.47:792][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.26-14.52.47:793][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.26-14.52.49:415][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,621.376ms to complete.
+[2018.12.26-14.52.49:442][  0]LogFileHelpers: Loading map '1Menu' took 2.406
+[2018.12.26-14.52.50:192][  0]LogCollectionManager: Loaded 0 collections in 0.002201 seconds
+[2018.12.26-14.52.52:587][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Saved/Collections/' took 0.03s
+[2018.12.26-14.52.52:588][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Developers/Alumno/Collections/' took 0.02s
+[2018.12.26-14.52.52:588][  0]LogFileCache: Scanning file cache for directory 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/Collections/' took 0.03s
+[2018.12.26-14.52.52:588][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.12.26-14.52.52:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 2245 classes and 453 folders.
+[2018.12.26-14.53.45:763][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.26-14.53.47:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.26-14.53.48:155][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.26-14.53.48:297][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.12.26-14.53.48:306][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.12.26-14.53.48:642][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.12.26-14.53.48:695][  0]LogLoad: (Engine Initialization) Total time: 161.78 seconds
+[2018.12.26-14.53.48:695][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.34 seconds
+[2018.12.26-14.53.48:695][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.12.26-14.53.49:035][  0]LogOcInput: OculusInput pre-init called
+[2018.12.26-14.53.49:180][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.26-14.53.49:291][  0]LogSlate: Took 0.108698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.26-14.53.49:336][  0]LogSlate: Took 0.039438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.26-14.53.49:356][  0]LogSlate: Took 0.011277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.26-14.53.50:947][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2018.12.26-14.53.50:947][  0]LogSlate: Took 0.063836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.26-14.53.55:731][  1]LogAudioDerivedData:Display: Building compressed audio format OGG wave Broke_For_Free_-_01_-_Night_Owl...
+[2018.12.26-14.54.04:551][  2]LogAssetRegistry: Asset discovery search completed in 134.7188 seconds
+[2018.12.26-14.54.04:552][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000073 seconds (found 0 objects)
+[2018.12.26-14.54.04:552][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
+[2018.12.26-14.57.08:525][540]LogTemp:Display: Finished compile of shader map 0x00000000255A9D00
+[2018.12.26-14.57.08:525][540]LogTemp:Display: Shader map M_Tech_Hex_Tile_Pulse complete, GameThreadShaderMap 0x00000000255A9D00, marking material M_Tech_Hex_Tile_Pulse as finished
+[2018.12.26-14.57.08:525][540]LogTemp:Display: Marking material as finished 0x000000003B5A6380
+[2018.12.26-14.57.10:380][545]LogSlate: Took 0.013448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.26-14.57.13:930][555]LogTemp:Display: Finished compile of shader map 0x000000004105AE80
+[2018.12.26-14.57.13:930][555]LogTemp:Display: Shader map black complete, GameThreadShaderMap 0x000000004105AE80, marking material black as finished
+[2018.12.26-14.57.13:930][555]LogTemp:Display: Marking material as finished 0x000000003B5B9300
+[2018.12.26-14.57.26:032][591]SourceControl: Info On branch master
+[2018.12.26-14.57.26:032][591]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.12.26-14.57.26:032][591]SourceControl: Info Changes not staged for commit:
+[2018.12.26-14.57.26:032][591]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.12.26-14.57.26:032][591]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Config/DefaultGame.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/1Menu.umap
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/1Menu_2.umap
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/About.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/Blueprints/MyGameProjectMode.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/Blueprints/prueba/black.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/Contador.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/MenuBlueprint.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/MyVehicle/MyCar.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/MyVehicle/SK_Car.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/mapa1.umap
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Content/mapa1_BuiltData.uasset
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2018.12.26-14.57.26:032][591]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-14.19.50.log
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-14.27.28.log
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-17.03.02.log
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	modified:   Saved/Logs/juego3D.log
+[2018.12.26-14.57.26:033][591]SourceControl: Info Untracked files:
+[2018.12.26-14.57.26:033][591]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Content/StarterContent/Audio/Broke_For_Free_-_01_-_Night_Owl.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Autosaves/Game/
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/1Menu_2018-12-26-11-56-48.umap
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/1Menu_2018-12-26-12-58-00.umap
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-15-31.umap
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-34-27.umap
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-40-15.umap
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/About_2018-12-26-14-30-23.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-13-13-03.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-17-12.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-23-50.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-40-11.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_Ground_Grass_2018-12-26-12-49-31.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_LightStage_Skybox_HDRI_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_LightStage_Skybox_Master_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_Metal_Gold_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_Shelf_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_TableRound_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_Tech_Hex_Tile_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_Tech_Hex_Tile_Pulse_2018-12-26-15-13-32.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/M_smoke_subUV_2018-12-26-15-15-51.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-31-31.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-38-58.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-45-40.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-51-55.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-59-06.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-12-52-54.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-11-48-17.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-12-46-52.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-10-50.uasset
+[2018.12.26-14.57.26:033][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-16-29.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-24-29.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-34-05.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-39-12.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-44-42.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-49-44.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-54-45.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-14-08-01.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/MyGameProjectMode_2018-12-26-11-58-41.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/SK_Car_2018-12-26-12-45-34.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/SK_Car_2018-12-26-15-10-35.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/black_2018-12-26-15-15-50.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-21-26.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-47-38.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-56-35.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-05-51.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-12-44.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-26-25.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-32-23.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-43-07.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-55-58.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-02-56.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-36-28.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-56-42.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-11-10.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-19-45.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-32-16.umap
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-11-47-39.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-13-36-29.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-14-11-10.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-14-19-45.uasset
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-07FE458F418DFE6DB31F9EB66A8486D7/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-07FE458F418DFE6DB31F9EB66A8486D7_0000/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4ACAB7DF47F926894A999381C5DA217B/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4FFD43BE443FEA9968A4EAACCBA6B08E/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4FFD43BE443FEA9968A4EAACCBA6B08E_0000/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-646806F3421B8884C7BB84987E56DF5A/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-646806F3421B8884C7BB84987E56DF5A_0000/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-7E32B3E841CA19129583C18894071DE2/
+[2018.12.26-14.57.26:034][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-7E32B3E841CA19129583C18894071DE2_0000/
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-AE9408004EE7108E5C01CE8CFE6BC692/
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-C9DB36344411DAEBB1F7AFAF6735DCDF/
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/UE4CC-Windows-F7AED7534CD200EBA661BF84656F9B29/
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-11.11.52.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-11.50.33.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-12.56.17.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-13.10.56.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-15.46.33.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-15.51.11.log
+[2018.12.26-14.57.26:035][591]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.12.26-14.57.55:483][178]LogSlate: Took 0.001064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.12.26-14.57.55:554][178]Cmd: MAP LOAD FILE="D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/Content/1Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.26-14.57.55:554][178]LightingResults: New page: Lighting Build
+[2018.12.26-14.57.55:557][178]LoadErrors: New page: Loading map: 1Menu.umap
+[2018.12.26-14.57.55:557][178]MapCheck: New page: Map Check
+[2018.12.26-14.57.55:557][178]LightingResults: New page: Lighting Build
+[2018.12.26-14.57.55:627][178]LogAIModule: Creating AISystem for world 1Menu
+[2018.12.26-14.57.55:642][178]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.26-14.57.55:998][178]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.26-14.57.59:084][178]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 3,086.054ms to complete.
+[2018.12.26-14.57.59:085][178]LogSlate: Took 0.000672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.26-14.57.59:091][178]LogFileHelpers: Loading map '1Menu' took 3.538
+[2018.12.26-14.59.01:990][408]SourceControl: Info Source control is disabled
+[2018.12.26-14.59.22:788][167]SourceControl: Info On branch master
+[2018.12.26-14.59.22:788][167]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.12.26-14.59.22:788][167]SourceControl: Info Changes not staged for commit:
+[2018.12.26-14.59.22:788][167]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.12.26-14.59.22:788][167]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Config/DefaultGame.ini
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/1Menu.umap
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/1Menu_2.umap
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/About.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/Blueprints/MyGameProjectMode.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/Blueprints/prueba/black.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/Contador.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/MenuBlueprint.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/MyVehicle/MyCar.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/MyVehicle/SK_Car.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2018.12.26-14.59.22:788][167]SourceControl: Info 	modified:   Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Content/mapa1.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Content/mapa1_BuiltData.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-14.19.50.log
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-14.27.28.log
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	deleted:    Saved/Logs/juego3D-backup-2018.12.19-17.03.02.log
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	modified:   Saved/Logs/juego3D.log
+[2018.12.26-14.59.22:789][167]SourceControl: Info Untracked files:
+[2018.12.26-14.59.22:789][167]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Content/StarterContent/Audio/Broke_For_Free_-_01_-_Night_Owl.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Autosaves/Game/
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/1Menu_2018-12-26-11-56-48.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/1Menu_2018-12-26-12-58-00.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-15-31.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-34-27.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/1Menu_2_2018-12-26-14-40-15.umap
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/About_2018-12-26-14-30-23.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-13-13-03.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-17-12.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-23-50.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/Contador_2018-12-26-14-40-11.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_Ground_Grass_2018-12-26-12-49-31.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_LightStage_Skybox_HDRI_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_LightStage_Skybox_Master_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_Metal_Gold_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_Shelf_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_TableRound_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:789][167]SourceControl: Info 	Saved/Backup/M_Tech_Hex_Tile_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/M_Tech_Hex_Tile_Pulse_2018-12-26-15-13-32.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/M_smoke_subUV_2018-12-26-15-15-51.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-31-31.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-38-58.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-45-40.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-51-55.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-11-59-06.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MenuBlueprint_2018-12-26-12-52-54.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-11-48-17.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-12-46-52.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-10-50.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-16-29.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-24-29.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-34-05.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-39-12.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-44-42.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-49-44.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-13-54-45.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyCar_2018-12-26-14-08-01.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/MyGameProjectMode_2018-12-26-11-58-41.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/SK_Car_2018-12-26-12-45-34.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/SK_Car_2018-12-26-15-10-35.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/black_2018-12-26-15-15-50.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-21-26.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-47-38.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-11-56-35.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-05-51.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-12-44.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-26-25.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-32-23.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-43-07.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-12-55-58.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-02-56.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-36-28.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-13-56-42.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-11-10.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-19-45.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_2018-12-26-14-32-16.umap
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-11-47-39.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-13-36-29.uasset
+[2018.12.26-14.59.22:790][167]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-14-11-10.uasset
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Backup/mapa1_BuiltData_2018-12-26-14-19-45.uasset
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-07FE458F418DFE6DB31F9EB66A8486D7/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-07FE458F418DFE6DB31F9EB66A8486D7_0000/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4ACAB7DF47F926894A999381C5DA217B/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4FFD43BE443FEA9968A4EAACCBA6B08E/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-4FFD43BE443FEA9968A4EAACCBA6B08E_0000/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-646806F3421B8884C7BB84987E56DF5A/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-646806F3421B8884C7BB84987E56DF5A_0000/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-7E32B3E841CA19129583C18894071DE2/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-7E32B3E841CA19129583C18894071DE2_0000/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-AE9408004EE7108E5C01CE8CFE6BC692/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-C9DB36344411DAEBB1F7AFAF6735DCDF/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/UE4CC-Windows-F7AED7534CD200EBA661BF84656F9B29/
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-11.11.52.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-11.50.33.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-12.56.17.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-13.10.56.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-15.46.33.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info 	Saved/Logs/juego3D-backup-2018.12.26-15.51.11.log
+[2018.12.26-14.59.22:791][167]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.12.26-14.59.46:626][704]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2018.12.26-14.59.46:831][704]LogPackageName:Error: Illegal call to DoesPackageExist: 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/juego3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.12.26-14.59.52:364][704]LogStats: FPlatformStackWalk::StackWalkAndDump -  5.519 s
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: === Handled ensure: ===
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: 
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'D:/Usuarios/Alumno/Documentos/Unreal Projects/juego3d/juego3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: Stack: 
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CF3095E6
+[2018.12.26-14.59.52:364][704]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CF0B9B82
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000CF0CB666
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000CFCBA6E8
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000DF073D22
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000DF073EB9
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C2EB1D2E
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C2E6B4B5
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C2E6AA8D
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C2E7F274
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000BA54B851
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000BA55D1ED
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000DF079C5C
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C9367517
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C9B72196
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor.exe!0x000000003F79DEE3
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor.exe!0x000000003F78EB40
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor.exe!0x000000003F78EBBA
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor.exe!0x000000003F7A0A29
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: UE4Editor.exe!0x000000003F7A22B6
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: kernel32.dll!0x00000000776159CD
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: ntdll.dll!0x000000007787385D
+[2018.12.26-14.59.52:365][704]LogOutputDevice:Error: 
+[2018.12.26-14.59.52:375][704]LogStats:                SubmitErrorReport -  0.000 s
